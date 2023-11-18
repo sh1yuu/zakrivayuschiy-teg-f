@@ -41,7 +41,7 @@
   justify-content: center;
   margin-block-start: 102px;
   margin-block-end: 104px;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family, sans-serif);
 }
 
 .header__section {
@@ -215,7 +215,7 @@
   position: absolute;
   top: 25px;
   right: 25px;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family, sans-serif);
   font-size: var(--accent-font-size);
   mix-blend-mode: hard-light;
   text-shadow: -1px 0 var(--text-shadow-color), 0 1px var(--text-shadow-color),
@@ -265,7 +265,7 @@
   border: 2px solid var(--color);
   padding: 9px 17px;
   font-size: var(--accent-font-size);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family, sans-serif);
   inline-size: 130px;
   overflow: hidden;
 }
@@ -386,7 +386,7 @@
   margin-block-end: clamp(6.375rem, 6.3088rem + 0.2824vw, 6.563rem);
   justify-self: center;
   background-color: var(--bg-color);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family, sans-serif);
   font-size: var(--accent-font-size);
   cursor: pointer;
   overflow: hidden;
@@ -419,7 +419,7 @@
   background-color: var(--bg-color);
   color: var(--color);
   padding: 30px;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family, sans-serif);
   font-size: var(--accent-font-size);
   font-variation-settings: "wght" var(--wght);
   text-transform: uppercase;
