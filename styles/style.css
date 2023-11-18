@@ -427,7 +427,7 @@
 
 .dialog__container {
   gap: 20px;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto;
   align-items: center;
 }
 
