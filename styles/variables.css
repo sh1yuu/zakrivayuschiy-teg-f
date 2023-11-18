@@ -12,6 +12,7 @@
   --line-height: 21px;
   --opacity: 0.6;
   --accent-font-size: 14px;
+  --line-height: 21px;
   --bg-image: repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
               repeating-linear-gradient(#d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
               linear-gradient(#e7e7e7, #1a1a1a);
