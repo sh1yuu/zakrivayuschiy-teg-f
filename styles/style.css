@@ -170,6 +170,8 @@
 
 .image__container {
   position: relative;
+  border-top: 2px solid var(--color);
+  border-bottom: 2px solid var(--color);
 }
 
 .card__image {
@@ -178,11 +180,6 @@
   block-size: fit-content;
   object-fit: contain;
   object-position: center;
-}
-
-.image__container {
-  border-top: 2px solid var(--color);
-  border-bottom: 2px solid var(--color);
 }
 
 .grayscale {
