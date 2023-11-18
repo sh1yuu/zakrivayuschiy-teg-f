@@ -295,10 +295,6 @@
 .like-icon .core,
 .like-icon .main-body {
   transition: fill 0.3s;
-}
-
-.like-icon .core,
-.like-icon .main-body {
   transition-delay: 0.03s;
 }
 

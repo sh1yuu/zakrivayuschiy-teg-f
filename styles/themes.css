@@ -28,11 +28,11 @@
   linear-gradient(#e7e7e7, #1a1a1a);
 }
 
-html.theme-light .button__text{
+html.theme-light .button__text {
   color: var(--accent-color);
 }
 
-html.theme-light .floppy{
+html.theme-light .floppy {
   color: var(--accent-color);
 }
 
