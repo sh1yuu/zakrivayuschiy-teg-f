@@ -14,6 +14,13 @@
 
 */
 
+html.theme-auto .theme-light, .button__text,
+html.theme-auto .theme-light, .save__button-text,
+html.theme-auto .theme-light, .floppy,
+html.theme-auto .theme-light, .close__button {
+  color: var(--accent-color);
+}
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;

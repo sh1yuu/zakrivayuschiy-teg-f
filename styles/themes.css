@@ -7,7 +7,7 @@
 :root.theme-dark {
   --bg-color: #000;
   --color: #00CC14;
-  --accent-color: #000;
+  --accent-color: #00CC14;
   --wght: 465;
   --accent-wght: 785;
   --text-shadow-color: #000;
@@ -28,18 +28,11 @@
   linear-gradient(#e7e7e7, #1a1a1a);
 }
 
-html.theme-light .button__text,
-html.theme-light .save__button-text,
-html.theme-light .floppy,
-html.theme-light .close__button {
-  color: var(--accent-color);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000;
     --color: #00CC14;
-    --accent-color: #000;
+    --accent-color: #00CC14;
     --wght: 465;
     --accent-wght: 785;
     --text-shadow-color: #000;
